@@ -267,23 +267,34 @@ function Property:addMloDoorsAccess(citizenid)
 
     if DoorResource == 'ox' then
         local ox_doorlock = exports.ox_doorlock
-        for i=1 , self.propertyData.door_data.count do
+        for i=1, self.propertyData.door_data.count do
             local door = ox_doorlock:getDoorFromName(('ps_mloproperty%s_%s'):format(self.property_id, i))
-            local data = door.characters or {}
-            table.insert(data, citizenid)
-            ox_doorlock:editDoor(door.id, {characters = data})
+            if door then
+                local data = door.characters or {}
+                table.insert(data, citizenid)
+                ox_doorlock:editDoor(door.id, {characters = data})
+            else
+                -- Handle invalid door case
+                print(("Error: Door not found for id: %s_%s"):format(self.property_id, i))
+            end
         end
     else
         local qb_doorlock = exports['qb-doorlock']
-        for i=1 , self.propertyData.door_data.count do
+        for i=1, self.propertyData.door_data.count do
             local id = ('ps_mloproperty%s_%s'):format(self.property_id, i)
             local door = qb_doorlock:getDoor(id)
-            local data = door.authorizedCitizenIDs or {}
-            data[citizenid] = true
-            qb_doorlock:updateDoor(id, {authorizedCitizenIDs = data})
+            if door then
+                local data = door.authorizedCitizenIDs or {}
+                data[citizenid] = true
+                qb_doorlock:updateDoor(id, {authorizedCitizenIDs = data})
+            else
+                -- Handle invalid door case
+                print(("Error: Door not found for id: %s_%s"):format(self.property_id, i))
+            end
         end
     end
 end
+
 
 function Property:removeMloDoorsAccess(citizenid)
     if self.propertyData.shell ~= 'mlo' then return end
