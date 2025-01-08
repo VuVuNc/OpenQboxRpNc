@@ -1,0 +1,66 @@
+{
+    "notify": {
+        "alreadyplacing": "Bezig met het plaatsen van een tafel",
+        "unabletoplace": "Fout opgetreden, kan tafel niet plaatsen",
+        "washerplaced": "Wasmachine geplaatst.",
+        "locked": "%s is vergrendeld!",
+        "keyalreadyexists": "Deze speler heeft al een sleutel!",
+        "gavekey": "Sleutel gegeven aan %s",
+        "removedkey": "Sleutel van %s verwijderd",
+        "cantremovekey": "Sleutel kon niet worden verwijderd",
+        "nodirtymoney": "Je hebt geen zwart geld",
+        "washstarted": "Wassen gestart, klaar over: %s",
+        "noplayersnearby": "Geen spelers in de buurt!",
+        "moneycollected": "$%s uitgeladen",
+        "washCancelled": "Wassen geannuleerd",
+        "pickedupWasher": "Wasmachine opgepakt"
+    },
+
+    "progress": {
+        "loadingWasher": "Machine aan het laden",
+        "unloadingWasher": "Machine aan het lossen",
+        "pickupWasher": "Wasmachine oppakken"
+    },
+
+    "target": {
+        "open": "Beheer %s"
+    },
+
+    "menu": {
+        "title": "%s's %s",
+        "locked": "Vergrendelingsstatus:",
+        "managekeys": "Beheer sleutels",
+        "keys": "Sleutels van de wasmachine",
+        "removekey": "Sleutel verwijderen",
+        "nokeys": "Geen sleutels",
+        "addkeys": "Sleutels toevoegen",
+        "wash": "Wasstatus:",
+        "washactive": "Actief",
+        "washinactive": "Inactief",
+        "washamount": "Te wassen bedrag:",
+        "amounttowash": "Te wassen bedrag: %s",
+        "washstart": "Gestart:",
+        "washend": "Eindigt:",
+        "startwash": "Wassen starten",
+        "timetocomplete": "Wastijd: %s",
+        "washreturn": "Schoon resultaat: $%s",
+        "currentWash": "Geld in was",
+        "notWashing": "Wasmachine inactief",
+        "cancelwash": "Wassen annuleren",
+        "washStartedBy": "Gestart door:",
+        "unloadmoney": "Schoon geld uitladen",
+        "washcomplete": "$%s klaar om op te halen",
+        "pickupWasher": "Wasmachine oppakken"
+    },
+
+    "input": {
+        "addkey": "Voeg sleutel toe aan speler",
+        "addkeyselect": "Selecteer speler",
+        "washamount": "Te wassen bedrag",
+        "washamountinfo": "Zwart geld: $%s"
+    },
+
+    "locked": "Vergrendeld",
+    "unlocked": "Ontgrendeld",
+    "placeInstructions": "[E] Wasmachine plaatsen  \n[Scroll Up/Down] Draaien"
+}

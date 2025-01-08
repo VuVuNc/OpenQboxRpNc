@@ -1,0 +1,68 @@
+{
+    "notify" : {
+        "alreadyplacing" : "Already placing a table",
+        "unabletoplace" : "Error occured, unable to place table",
+        "washerplaced" : "Placed Washer.",
+        "locked" : "%s is locked!",
+        "keyalreadyexists" : "This player already has a key!",
+        "gavekey" : "Gave key to %s",
+        "removedkey" : "Removed %s's key",
+        "cantremovekey" : "Key couldnt be removed",
+        "nodirtymoney" : "You do not have any dirty money",
+        "washstarted" : "Wash Started, Done in: %s",
+        "noplayersnearby" : "No Players nearby!",
+        "moneycollected" : "Unloaded $%s",
+        "washCancelled" : "Wash Cancelled",
+        "pickedupWasher" : "Washer Picked Up"
+    },
+
+    "progress" : {
+        "loadingWasher" : "Loading Machine",
+        "unloadingWasher" : "Unloading Machine",
+        "pickupWasher" : "Picking up Washer"
+    },
+
+    "target" : {
+        "open" : "Manage %s"
+    },
+
+    "menu" : {
+        "title" : "%s's %s",
+        "locked" : "Lock Status:",
+        "managekeys" : "Manage Keys",
+        "keys" : "Washer Keys",
+        "removekey" : "Remove Key",
+        "nokeys" : "No Keys",
+        "addkeys" : "Add Keys",
+        "wash" : "Wash Status:",
+        "washactive" : "Active",
+        "washinactive" : "Inactive",
+        "washamount" : "Wash Amount:",
+        "amounttowash" : "Wash Amount: %s",
+        "washstart" : "Started:",
+        "washend" : "Finishes:",
+        "startwash" : "Start Wash",
+        "timetocomplete" : "Wash Time: %s",
+        "washreturn" : "Clean Return: $%s",
+        "currentWash" : "Wash Money",
+        "notWashing" : "Washer Inactive",
+        "cancelwash" : "Cancel Wash",
+        "washStartedBy" : "Started By:",
+        "unloadmoney" : "Unload Clean Money",
+        "washcomplete" : "$%s Ready to collect",
+        "pickupWasher" : "Pick up Washer"
+    },
+
+    "input" : {
+        "addkey" : "Add Key to Player",
+        "addkeyselect" : "Select Player",
+        "washamount" : "Amount to wash",
+        "washamountinfo" : "Dirty Money: $%s"
+    },
+
+    "locked" : "Locked",
+    "unlocked" : "Unlocked",
+    "placeInstructions": "[E] Place Washer  \n[Scroll Up/Down] Rotate"
+
+    
+}

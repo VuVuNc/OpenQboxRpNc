@@ -1,0 +1,66 @@
+{
+    "notify": {
+        "alreadyplacing": "Ya estás colocando una mesa",
+        "unabletoplace": "Ocurrió un error, no se pudo colocar la mesa",
+        "washerplaced": "Lavadora colocada.",
+        "locked": "¡%s está bloqueado!",
+        "keyalreadyexists": "¡Este jugador ya tiene una llave!",
+        "gavekey": "Le diste la llave a %s",
+        "removedkey": "Se eliminó la llave de %s",
+        "cantremovekey": "No se pudo eliminar la llave",
+        "nodirtymoney": "No tienes dinero sucio",
+        "washstarted": "Lavado iniciado, listo en: %s",
+        "noplayersnearby": "¡No hay jugadores cerca!",
+        "moneycollected": "Se descargaron $%s",
+        "washCancelled": "Lavado cancelado",
+        "pickedupWasher": "Lavadora recogida"
+    },
+
+    "progress": {
+        "loadingWasher": "Cargando la máquina",
+        "unloadingWasher": "Descargando la máquina",
+        "pickupWasher": "Recogiendo la lavadora"
+    },
+
+    "target": {
+        "open": "Gestionar %s"
+    },
+
+    "menu": {
+        "title": "El %s de %s",
+        "locked": "Estado del bloqueo:",
+        "managekeys": "Gestionar llaves",
+        "keys": "Llaves de la lavadora",
+        "removekey": "Eliminar llave",
+        "nokeys": "Sin llaves",
+        "addkeys": "Agregar llaves",
+        "wash": "Estado del lavado:",
+        "washactive": "Activo",
+        "washinactive": "Inactivo",
+        "washamount": "Cantidad a lavar:",
+        "amounttowash": "Cantidad a lavar: %s",
+        "washstart": "Iniciado:",
+        "washend": "Termina:",
+        "startwash": "Iniciar lavado",
+        "timetocomplete": "Tiempo de lavado: %s",
+        "washreturn": "Retorno limpio: $%s",
+        "currentWash": "Dinero en lavado",
+        "notWashing": "Lavadora inactiva",
+        "cancelwash": "Cancelar lavado",
+        "washStartedBy": "Iniciado por:",
+        "unloadmoney": "Descargar dinero limpio",
+        "washcomplete": "$%s listo para recoger",
+        "pickupWasher": "Recoger la lavadora"
+    },
+
+    "input": {
+        "addkey": "Agregar llave al jugador",
+        "addkeyselect": "Seleccionar jugador",
+        "washamount": "Cantidad a lavar",
+        "washamountinfo": "Dinero sucio: $%s"
+    },
+
+    "locked": "Bloqueado",
+    "unlocked": "Desbloqueado",
+    "placeInstructions": "[E] Colocar lavadora  \n[Scroll Up/Down] Rotar"
+}
